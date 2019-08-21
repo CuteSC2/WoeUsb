@@ -4,7 +4,7 @@
 	
 Name:           WoeUSB
 	
-Version:        3.2.12
+Version:        3.3.0
 	
 Release:        2%{?dist}
 	
@@ -141,6 +141,10 @@ desktop-file-validate %{buildroot}%{_datadir}/applications/woeusbgui.desktop
  
 	
 %changelog
+
+* Wed Aug 21 2019 Josie Herzog 3.3.0
+ - This release features improvements to the WoeUSB GUI (finally!). 
+ - The option of using the NTFS filesystem as the target filesystem has now being provided in the GUI.
 
 * Sun Apr 14 2019 Josie Herzog 3.2.12
 
